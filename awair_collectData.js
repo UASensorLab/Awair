@@ -10,6 +10,7 @@ Purpose:
     time as a CSV.
 
 Usage: 
+    * Set your Device ID, API Key, and Organization ID using your unique Awair credentials.
     * Set the variables FROM and TO to indicate the time interval you want to collect data.
     * Set the variable LIMIT to indicate the number of time intervals you want to collect
       in 1 hour. The maximum value is 360.
@@ -29,9 +30,9 @@ const FROM = new Date('20 April 2023 23:00');
 const TO =  new Date('21 April 2023 15:00');
 const LIMIT = 120; 
 
-const DEVICE_ID = "28563"; //"17987"; //
-const API_KEY = "UfwaYhhnQJDJ1GoX37GHDy6CmPstQGyl";
-const ORG_ID = "10994";
+const DEVICE_ID = "";
+const API_KEY = "";
+const ORG_ID = "";
 
 const https = require('follow-redirects').https;
 const fs = require('fs');
