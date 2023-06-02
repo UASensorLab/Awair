@@ -8,7 +8,6 @@ Collect data from an Awair Omni device
  
  (1) Use awair_collectData.js. Follow the usage instructions at the top of the file. This script saves a single CSV file with data from any time window at intervals 
     as short as 10 seconds. 
-      
       Note: To prevent denial of servie (DOS) attacks, Awair sets a limit on the number of data entries you can extract in 1 minute. Therefore, this script pauses for 
         60 seconds after collecting 10 hours' worth of data, so extracting many days' worth of data can take several minutes.
       
