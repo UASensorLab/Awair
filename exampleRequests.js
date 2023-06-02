@@ -11,7 +11,7 @@
     * desc: Return AirData in descending order before to (true) or after from (false) datetime. 
             Default of true returns AirData descending from the to parameter (Current DateTime, 
             if to is not supplied). (boolean)
-    * fahrenheit: Return temperature in Fahrenheit (boolean)
+    * fahrenheit: Get temperature in Fahrenheit (set fahrenheit=false) or Celcius (set fahrenheit=true)
 */
 
 var deviceID = ""; // A 5-digit number as a string
