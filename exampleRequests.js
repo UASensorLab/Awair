@@ -14,9 +14,9 @@
     * fahrenheit: Return temperature in Fahrenheit (boolean)
 */
 
-var deviceID = "28563"; //"17987"
-var orgID = "10994";
-var apiKey = "UfwaYhhnQJDJ1GoX37GHDy6CmPstQGyl";
+var deviceID = ""; // A 5-digit number as a string
+var orgID = ""; // A 5-digit number as a string
+var apiKey = ""; // A 32-character string
 
 var from = new Date('13 April 2023 14:15');
 var to = new Date('13 April 2023 14:25');
