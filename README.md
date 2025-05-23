@@ -39,7 +39,7 @@ To extract data at intervals shorter than 5 minutes (as low as 10 seconds), you 
   2. In the `DEVICES` list, specify each Omni’s `host` IP, target CSV (under `Data/`), `device_type` (“awair-omni”), and its unique `device_id`.
   3. Run:
      ```bash
-     python awair_omni_local_logger.py
+     python awair_omni.py
      ```
   4. The script will:
      - Ensure a `Data/` directory exists.
