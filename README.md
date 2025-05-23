@@ -108,6 +108,3 @@ For an Awair Element, the device exposes a local API that only supplies current 
 
 For further assistance, please contact the UA Sensor Lab. If you borrowed the device, they can provide you with the necessary credentials (DeviceID, OrgID, and API Key) for cloud-based data extraction.
 
----
-
-*This README should serve as a comprehensive guide on how to set up your data collection project without including the actual code. Adjust the configuration parameters as needed for your specific device and use case.*  
