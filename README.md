@@ -35,7 +35,7 @@ To extract data at intervals shorter than 5 minutes (as low as 10 seconds), you 
   - Automatically creates a `Data/` folder to store each device’s CSV.
   - Tags every row with **device_type** and **device_id** for easy identification.
 - **Quick Start:**
-  1. Clone or copy the Python script `awair_omni_local_logger.py`.
+  1. Clone or copy the Python script `awair_omni.py`.
   2. In the `DEVICES` list, specify each Omni’s `host` IP, target CSV (under `Data/`), `device_type` (“awair-omni”), and its unique `device_id`.
   3. Run:
      ```bash
@@ -43,7 +43,7 @@ To extract data at intervals shorter than 5 minutes (as low as 10 seconds), you 
      ```
   4. The script will:
      - Ensure a `Data/` directory exists.
-     - Create each CSV with headers (`time,temp,score,humid,co2,voc,pm25,lux,spl_a,device_type,device_id`).
+     - Create each CSV with headers (`time,temp,score,humid,co2,voc,pm25,lux,spl_a`).
      - Poll `/air-data/latest` every 60 seconds.
      - Append a row for each device into its own CSV.
 
